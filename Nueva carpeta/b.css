@@ -1,0 +1,111 @@
+/* Tipos de Letra */
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&family=Raleway&family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2E2CE; /* Beige */
+    color: #000000; /* Negro para buena legibilidad */
+}
+
+header {
+    text-align: center;
+    background-color: #2C5F2D; /* Verde Bosque */
+    width: 99%;
+    margin-top: 5px;
+    border-style: solid;
+    border-color: #88B04B; /* Verde Claro */
+    color: #FFFFFF; /* Blanco */
+}
+
+nav {
+    width: 99%;
+    background-color: #6D4C41; /* Marrón */
+    border-style: solid;
+    border-color: #88B04B; /* Verde Claro */
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 15px;
+    padding: 45px;
+    color: #FFFFFF; /* Blanco */
+}
+
+nav a:hover {
+    color: #88B04B; /* Verde Claro */
+}
+
+article {
+    clear: both;
+    text-align: center;
+    float: left;
+    width: 75%;
+    margin-top: 5px;
+    border-style: solid;
+    border-color: #88B04B; /* Verde Claro */
+    height: 600px;
+    background-color: #FFFFFF; /* Blanco */
+    margin-right: 5px;
+}
+
+section {
+    text-align: justify;
+    font-family: 'Lora', serif;
+    color: #6D4C41; /* Marrón */
+}
+
+video {
+    height: 600px;
+    width: 300px;
+    border-radius: 10px; 
+}
+
+img {
+    height: 300px;
+    width: 450px;
+    border-radius: 10px; 
+}
+
+div {
+    text-align: center;
+}
+
+article h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #2C5F2D; 
+}
+
+article p {
+    text-align: justify;
+    font-family: 'Lora', serif;
+    color: #6D4C41; 
+}
+
+aside {
+    text-align: center;
+    float: left;
+    width: 23%;
+    margin-top: 5px;
+    border-style: solid;
+    border-color: #88B04B; 
+    height: 600px;
+    background-color: #FFFFFF; 
+}
+
+footer {
+    clear: both;
+    width: 99%;
+    background-color: #2C5F2D; 
+    border-style: solid;
+    border-color: #88B04B; 
+    text-align: center;
+    color: #FFFFFF; 
+    padding: 10px;
+}
+
+footer h1 {
+    font-family: 'Lora', serif;
+}
