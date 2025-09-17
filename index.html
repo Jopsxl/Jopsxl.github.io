@@ -1,1 +1,23 @@
-!Doc
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Partidos CONGRESO</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <h1>Partidos CONGRESO</h1>
+
+  <div id="circle-container">
+    <svg id="svgHerradura"></svg>
+    <div id="grid-nombres" style="display:none; margin-top:30px;"></div>
+  </div>
+  <div class="legend" id="legend"></div>
+  <div id="diputados-lista" style="margin: 40px auto; max-width: 900px;"></div>
+  <script src="Main.js"></script>
+  <script src="TablaDiputados.js"></script>
+
+  <div id="tooltip" style="display:none;position:absolute;background:#fff;border:1px solid #888;padding:6px 12px;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,0.15);font-size:15px;z-index:2000;"></div>
+</body>
+</html>
